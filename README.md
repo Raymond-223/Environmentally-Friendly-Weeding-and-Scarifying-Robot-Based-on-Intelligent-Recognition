@@ -121,8 +121,8 @@ python scripts/train_detection.py --model fine_grained --epochs 2 --out checkpoi
 <img src="https://img.shields.io/github/contributors/Raymond-223/Environmentally-Friendly-Weeding-and-Scarifying-Robot-Based-on-Intelligent-Recognition?style=for-the-badge" alt="贡献者数量"/>
 <br/>
 <div align="center">
-  <a href="https://github.com/Raymond-223/ResearchPal---AI-Hackathon-Tour-2026/graphs/contributors">
-    <img src="https://contributors-img.web.app/image?repo=Raymond-223/ResearchPal---AI-Hackathon-Tour-2026" 
+  <a href="https://github.com/Raymond-223/Environmentally-Friendly-Weeding-and-Scarifying-Robot-Based-on-Intelligent-Recognition/graphs/contributors">
+    <img src="https://contributors-img.web.app/image?repo=Raymond-223/Environmentally-Friendly-Weeding-and-Scarifying-Robot-Based-on-Intelligent-Recognition" 
          alt="Contributors" 
          style="width: 100%; max-width: 800px; border-radius: 8px;"/>
   </a>
@@ -133,4 +133,5 @@ python scripts/train_detection.py --model fine_grained --epochs 2 --out checkpoi
 ## 📄 许可证
 
 MIT
+
 
