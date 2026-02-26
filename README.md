@@ -15,10 +15,7 @@
 
 <p align="center">
   大棚环境下具备 <strong>自主导航</strong>、<strong>智能杂草识别</strong> 与 <strong>精准除草/松土</strong> 的机器人系统
-</p>
-
-<p align="center">
-  <sub>算法实现参考《导航及目标检测板块报告》</sub>
+  本项目获得“西安交通大学第十一届国际大学生智能农业装备创新大赛校赛”二等奖
 </p>
 
 ---
@@ -27,9 +24,9 @@
 
 | 模块 | 功能 |
 |------|------|
-| 🧭 **导航** | 自适应垄线检测、多光谱-视觉融合、作物生长动态垄距、轨迹预测避障、多因素传感器权重 |
-| 🔍 **检测** | DGL-DETR 杂草检测、细粒度多任务（种类/根深/生长阶段）、增量学习、四模态融合、遮挡补全、轻量化 |
-| ⚙️ **控制** | 根据检测结果输出除草策略（功率/时间/深度） |
+|  **导航** | 自适应垄线检测、多光谱-视觉融合、作物生长动态垄距、轨迹预测避障、多因素传感器权重 |
+|  **检测** | DGL-DETR 杂草检测、细粒度多任务（种类/根深/生长阶段）、增量学习、四模态融合、遮挡补全、轻量化 |
+|  **控制** | 根据检测结果输出除草策略（功率/时间/深度） |
 
 ---
 
@@ -118,6 +115,22 @@ python scripts/train_detection.py --model fine_grained --epochs 2 --out checkpoi
 
 ---
 
+## 👥 项目团队
+**核心开发者（GitHub头像点击可跳转主页）**
+<!-- 贡献者头像墙 - 自动生成+正确跳转 -->
+<img src="https://img.shields.io/github/contributors/Raymond-223/Environmentally-Friendly-Weeding-and-Scarifying-Robot-Based-on-Intelligent-Recognition?style=for-the-badge" alt="贡献者数量"/>
+<br/>
+<div align="center">
+  <a href="https://github.com/Raymond-223/ResearchPal---AI-Hackathon-Tour-2026/graphs/contributors">
+    <img src="https://contributors-img.web.app/image?repo=Raymond-223/ResearchPal---AI-Hackathon-Tour-2026" 
+         alt="Contributors" 
+         style="width: 100%; max-width: 800px; border-radius: 8px;"/>
+  </a>
+</div>
+
+---
+
 ## 📄 许可证
 
 MIT
+
