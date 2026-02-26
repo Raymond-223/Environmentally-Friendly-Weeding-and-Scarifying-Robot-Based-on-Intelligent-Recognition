@@ -1,0 +1,24 @@
+# 导航与检测默认参数（参考设计报告）
+
+navigation:
+  ridge_prior: 0.8          # 垄距先验 (m)
+  ridge_angle_threshold: 15 # 垄线角度过滤 (°)
+  safe_distance: 1.0        # 避障安全距离 (m)
+  trajectory_safe_distance: 1.5
+  path_velocity: 0.3
+  path_switch_step: 0.5
+
+detection:
+  num_weed_classes: 8
+  num_depth_levels: 3
+  num_growth_stages: 2
+  conf_threshold: 0.5
+  nms_threshold: 0.45
+  input_size: [640, 640]
+
+weed_control:
+  # 杂草类型 -> (功率W, 时间ms, 深度cm) 按根深等级 [深,中,浅]
+  0: [[250, 80, 10], [200, 70, 8], [180, 60, 6]]   # 稗草
+  1: [[150, 50, 5], [130, 40, 4], [120, 30, 3]]   # 马齿苋
+  2: [[200, 60, 8], [180, 50, 6], [160, 40, 5]]   # 马唐
+  seedling_power_scale: 0.8

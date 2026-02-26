@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weed-robot"
+version = "0.1.0"
+description = "基于智能识别的环保除草及松土机器人 - 导航与杂草检测算法"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "Weed Robot Team" }]
+keywords = ["agriculture", "robot", "weed detection", "navigation", "DGL-DETR"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "torch>=2.0.0",
+  "torchvision>=0.15.0",
+  "opencv-python>=4.8.0",
+  "numpy>=1.24.0",
+  "Pillow>=9.0.0",
+  "scikit-learn>=1.2.0",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black", "ruff"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]

@@ -1,0 +1,19 @@
+# 基于智能识别的环保除草及松土机器人 - 依赖
+# Python >= 3.8
+
+# 深度学习与视觉
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=9.0.0
+
+# 机器学习与配置
+scikit-learn>=1.2.0
+PyYAML>=6.0
+
+# 可选：ROS2 桥接（若在机器人上运行）
+# ros2 + cv_bridge
+
+# 可选：量化与轻量化
+# pytorch-lightning>=2.0.0
