@@ -15,6 +15,8 @@
 
 <p align="center">
   大棚环境下具备 <strong>自主导航</strong>、<strong>智能杂草识别</strong> 与 <strong>精准除草/松土</strong> 的机器人系统
+</p>
+<p align="center">
   本项目获得“西安交通大学第十一届国际大学生智能农业装备创新大赛校赛”二等奖
 </p>
 
@@ -133,5 +135,6 @@ python scripts/train_detection.py --model fine_grained --epochs 2 --out checkpoi
 ## 📄 许可证
 
 MIT
+
 
 
